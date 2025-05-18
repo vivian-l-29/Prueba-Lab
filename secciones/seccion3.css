@@ -1,0 +1,115 @@
+.linea-separadora-2{
+  border: none;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin-bottom: 5px;
+  top: -15px;
+  width: 915px;
+  position: relative;
+  margin-left: 375px;
+}
+
+.top-categorias {
+  padding: 60px 20px;
+  margin-left: 90px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.top-categorias h2::after {
+  content: '';
+  display: block;
+  width: 375px;
+  height: 3.5px;
+  background-color: #008ECC;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+.encabezado-categorias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.encabezado-categorias h2 {
+  font-size: 22px;
+  color: #333;
+  margin: 0;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.encabezado-categorias h2 span {
+  color: #008ECC;
+}
+
+.ver-todo-categorias {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-right: 110px;
+}
+
+.ver-todo-categorias img {
+  margin-left: 5px;
+  width: 12px;
+  rotate: 265deg;
+}
+
+.lista-categorias {
+  display: flex;
+  gap: 40px;
+  justify-content: center; 
+  align-items: center;
+  padding-top: 20px;
+  margin-right: 80px;
+}
+
+
+.categoria-item {
+  text-align: center;
+  font-size: 14px;
+  color: #222;
+}
+
+.icono-categoria {
+  background-color: #F5F5F5;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  padding: 18px;
+  margin: 0 auto 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.categoria-item:nth-child(1) .icono-categoria img,
+.categoria-item:nth-child(2) .icono-categoria img {
+  max-width: 90px;
+  max-height: 90px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.categoria-item:not(:nth-child(1)):not(:nth-child(2)) .icono-categoria img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.categoria-item.activa .icono-categoria {
+  border: 2px solid #008ECC;
+  box-shadow: 0 4px 10px rgba(0,142,204,0.3);
+}

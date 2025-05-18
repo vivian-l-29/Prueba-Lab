@@ -1,0 +1,36 @@
+ .barra {
+      background-color: #F5F5F5;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 20px;
+      font-size: 14px;
+      color: #666666;
+    }
+
+    .texto{
+      margin-left: 5rem;
+    }
+    .seccion {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-right: 10rem;
+    }
+    .icono {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: #1a73e8;
+    }
+    .icono span {
+      color: #666666;
+    }
+    .icono img {
+      width: 16px;
+      height: 16px;
+    }
+    .separador {
+      border-left: 1px solid #D9D9D9;
+      height: 16px;
+    }

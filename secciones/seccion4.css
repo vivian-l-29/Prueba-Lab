@@ -1,0 +1,230 @@
+.marcas {
+margin-top: 90px;
+}
+
+.linea-separadora-3{
+  border: none;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin-bottom: 5px;
+  top: -15px;
+  width: 915px;
+  position: relative;
+  margin-left: 485px;
+}
+
+.encabezado-marcas {
+  padding: 0px 20px;
+  margin-left: 90px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.encabezado-marcas h2::after {
+  content: '';
+  display: block;
+  width: 375px;
+  height: 3.5px;
+  background-color: #008ECC;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+
+.encabezado-marcas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.encabezado-marcas h2 {
+  font-size: 22px;
+  color: #333;
+  margin: 0;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.encabezado-marcas h2 span {
+  color: #008ECC;
+}
+
+.ver-todo-2 {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-right: 110px;
+}
+
+.ver-todo-2 img {
+  margin-left: 5px;
+  width: 12px;
+  rotate: 265deg;
+}
+
+.brands-slider {
+  display: flex;
+  gap: 20px;
+  overflow-y: hidden;
+}
+
+
+.brand-card {
+  position: relative;
+  width: 340px;
+  height: 190px;
+  border-radius: 12px;
+  padding: 15px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin-left: 110px;
+}
+
+.brand-card .brand-label {
+  font-size: 12px;
+  padding: 4px 10px;
+  background-color: #ddd;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.brand-card .brand-logo {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.brand-card .brand-logo1 {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: block;
+}
+
+.brand-card .brand-discount {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.brand-card .brand-phone {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  height: 130px;
+}
+
+.fondo-decorativo-2 {
+  position: absolute;
+  top: -70px;
+  left: 125px; 
+  transform: translateY(-50%);
+  width: 200px;
+  height: auto;
+  z-index: 0;
+}
+
+.fondo-decorativo-3 {
+  position: absolute;
+  top: -90px;
+  left: 125px; 
+  transform: translateY(-50%);
+  width: 200px;
+  height: auto;
+  z-index: 0;
+}
+
+.reloj-inteligente {
+  position: relative;
+  width: 245px;
+  height: auto;
+  z-index: 0;
+    right: 70px;
+    top: 10px;
+}
+
+.telefono-iphone1 {
+  position: absolute;
+  bottom: 15px;
+  right: -45px;
+  z-index: 10;
+  top: -160px;
+}
+
+.telefono-iphone {
+  position: absolute;
+  bottom: 15px;
+  right: -40px;
+  z-index: 10;
+  top: -180px;
+}
+
+.telefono-iphone-3 {
+  position: absolute;
+  bottom: 15px;
+  right: -15px;
+  z-index: 10;
+  top: -180px;
+}
+
+
+.iphone {
+  background-color: #313131;
+  color: white;
+}
+
+.iphone .brand-label {
+  background-color: #494949;
+  color: #ccc;
+}
+
+.realme {
+  background-color: #FFF3CC;
+  color: #000;
+}
+
+.realme .brand-label {
+  background-color: #F6DE8D;
+}
+
+.xiaomi {
+  background-color: #FFECDF;
+  color: #000;
+}
+
+.xiaomi .brand-label {
+  background-color: #FFD1B0;
+}
+
+.puntos-navegacion {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  margin-left: -700px;
+  gap: 8px;
+}
+
+.puntos-navegacion .punto {
+  width: 7px;
+  height: 7px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.puntos-navegacion .punto.activo {
+  width: 30px;
+  background-color: #008ECC;
+  border-radius: 5px;
+}
