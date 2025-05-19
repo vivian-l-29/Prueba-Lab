@@ -4,7 +4,7 @@
   background-color: #e0e0e0;
   margin-bottom: 5px;
   top: -10px;
-  width: 1000px;
+  width: 1250px;
   position: relative;
   margin-left: 280px;
 }
@@ -77,6 +77,7 @@
   gap: 16px;
   overflow-x: auto;
   padding-bottom: 10px;
+  margin-left: 120px;
 }
 
 .tarjeta-celu-activa {
